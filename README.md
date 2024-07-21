@@ -23,7 +23,7 @@ cd api_project
 ### Start front-end
 ```sh
 cd frontend
-cpm start
+npm start
 ```
 
 ### Start backend
