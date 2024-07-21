@@ -9,7 +9,7 @@ Make sure you have the following installed on your machine:
 - [Node.js](https://nodejs.org/en/) (which includes npm)
 - [MongoDB](https://www.mongodb.com/try/download/community) (make sure MongoDB is running locally on your machine)
 - [Git](https://git-scm.com/)
-- please note that u have to install node_modules
+- please note that you have to install node_modules
 
 ## Getting Started
 
