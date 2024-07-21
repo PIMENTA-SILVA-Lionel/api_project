@@ -1,4 +1,4 @@
-# Cat Market Project
+# Cat Market Project by Lionel Fabine and Romain
 
 This project is a Cat Market application that includes a backend (Node.js) and a frontend (React). Follow the instructions below to set up and run the project locally.
 
@@ -16,4 +16,4 @@ Make sure you have the following installed on your machine:
 
 ```sh
 git clone https://github.com/PIMENTA-SILVA-Lionel/api_project.git
-cd your-repository-name
+cd api_project
