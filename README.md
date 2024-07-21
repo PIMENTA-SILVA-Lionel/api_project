@@ -15,5 +15,5 @@ Make sure you have the following installed on your machine:
 ### Clone the Repository
 
 ```sh
-git [clone https://github.com/your-username/your-repository-name](https://github.com/PIMENTA-SILVA-Lionel/api_project).git
+git clone https://github.com/PIMENTA-SILVA-Lionel/api_project.git
 cd your-repository-name
