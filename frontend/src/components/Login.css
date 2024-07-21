@@ -1,0 +1,112 @@
+/* src/components/Login.css */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #e6eff2;
+}
+
+.login-box {
+  display: flex;
+  width: 800px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.login-left {
+  width: 50%;
+  background-color: #d2ebe5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.login-avatar {
+  width: 100px;
+  height: 100px;
+  background-image: url('../assets/avatar.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+}
+
+.login-right {
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #4a4a4a;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.login-button, .register-button, .forgot-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #ffffff;
+  transition: background-color 0.3s, border 0.3s;
+}
+
+.login-button {
+  background-color: #a5d6a7;
+}
+
+.login-button:hover {
+  background-color: #94c47a;
+  border: 2px solid #94c47a;
+}
+
+.register-button {
+  background-color: #ffcc80;
+}
+
+.register-button:hover {
+  background-color: #ffb84d;
+  border: 2px solid #ffb84d;
+}
+
+.forgot-button {
+  background-color: #b0bec5;
+}
+
+.forgot-button:hover {
+  background-color: #90a4ae;
+  border: 2px solid #90a4ae;
+}
+
+.google-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.google-button img {
+  width: 100%;
+  height: auto;
+}

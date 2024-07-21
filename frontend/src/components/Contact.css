@@ -1,0 +1,49 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+.messages {
+width: 80%;
+max-height: 400px;
+overflow-y: auto;
+border: 1px solid #ddd;
+border-radius: 8px;
+padding: 10px;
+margin-bottom: 20px;
+}
+
+.message {
+border-bottom: 1px solid #ddd;
+padding: 10px;
+}
+
+.message:last-child {
+border-bottom: none;
+}
+
+.input-section {
+display: flex;
+width: 80%;
+}
+
+.input-section input {
+flex: 1;
+padding: 10px;
+border-radius: 4px 0 0 4px;
+border: 1px solid #ddd;
+}
+
+.input-section button {
+padding: 10px 20px;
+border-radius: 0 4px 4px 0;
+border: 1px solid #ddd;
+background-color: #ffd700;
+cursor: pointer;
+}
+
+.input-section button:hover {
+background-color: #ffcc00;
+}

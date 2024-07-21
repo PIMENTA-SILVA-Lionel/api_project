@@ -1,0 +1,20 @@
+/* src/components/Home.css */
+.home {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .home h2 {
+    margin-top: 0;
+  }
+  
+  .home p {
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
+  }
+  
+  .username {
+    font-family: 'Kalnia Glaze', sans-serif; /* Apply the Kalnia Glaze font to the username */
+  }
+  

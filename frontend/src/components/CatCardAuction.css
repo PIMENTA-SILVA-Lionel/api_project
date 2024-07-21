@@ -1,0 +1,62 @@
+/* src/components/CatCard.css */
+.cat-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .best-bidder {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .cat-image {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .cat-info {
+    padding: 15px;
+  }
+  
+  .cat-name {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  .cat-description, .cat-age, .cat-price {
+    margin: 5px 0;
+  }
+  
+  .cat-button, .bid-button {
+    background-color: #ffd700;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .cat-button:hover, .bid-button:hover {
+    background-color: #ffcc00;
+  }
+  
+  .bid-input {
+    width: 80%;
+    padding: 5px;
+    margin: 10px 0;
+  }
+  
