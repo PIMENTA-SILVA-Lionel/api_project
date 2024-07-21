@@ -17,3 +17,17 @@ Make sure you have the following installed on your machine:
 ```sh
 git clone https://github.com/PIMENTA-SILVA-Lionel/api_project.git
 cd api_project
+```
+
+
+### Start front-end
+```sh
+cd frontend
+cpm start
+```
+
+### Start backend
+```sh
+cd backend
+npm run dev
+```
